@@ -4,7 +4,8 @@
 ```text
 jupyter-containerd-systemd/
 ├── install_container.sh 
-├── 
+├── run_jupyter.sh
+├── cloud-init.sh 
 ├── README.md
 ├── .gitignore
 └── LICENSE        # 可選（MIT / Apache-2.0）
@@ -36,8 +37,8 @@ Tested on:
 ## Prerequisites
 
 ```bash
-sudo apt install -y containerd.io
-sudo systemctl enable --now containerd
+bash install_container.sh
+bash run_jupyter.sh
 ```
 
 * * *
