@@ -9,7 +9,7 @@ fi
 # ===== Config =====
 DB_NAME="demo"
 DB_USER="demo"
-DB_PASS="demoPass123!"
+DB_PASS=""
 ALLOW_REMOTE="true"
 
 echo "[1/6] Install MySQL"
