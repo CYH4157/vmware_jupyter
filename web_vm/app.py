@@ -3,10 +3,10 @@ import mysql.connector
 
 app = Flask(__name__)
 
-DB_HOST = "140.110.145.248"      # 改成 DB VM 私網 IP
+DB_HOST = "x.x.145.x"      # 改成 DB VM 私網 IP
 DB_NAME = "demo"
 DB_USER = "demo"
-DB_PASS = "demo@123"			# 設定密碼
+DB_PASS = ""			# 設定密碼
 DB_PORT = 3306
 
 '''
