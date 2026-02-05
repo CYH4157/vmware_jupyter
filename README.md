@@ -37,12 +37,29 @@ Tested on:
 ## Prerequisites
 
 ```bash
-bash install_container.sh
-bash run_jupyter.sh
+bash ./install_container.sh
+bash ./run_jupyter.sh
 ```
 
 * * *
 
 ## Install
+prepare 2 vm
+db vm, web vm
 
+db vm:
 
+```bash
+bash ./install_mysql2.sh
+```
+
+web vm
+
+```
+bash ./install_pyenv.sh
+```
+
+```
+source ./env/bin/activate
+python app.py
+```
